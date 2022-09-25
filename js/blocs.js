@@ -12,7 +12,7 @@ function setUpSpecialNavs() {
                 $(this).addClass("selected-nav");
                 var o = e.attr("class").replace("navbar", "").replace("row", ""),
                     l = i.parent().attr("class").replace("navbar-collapse", "").replace("collapse", "");
-                ($(".content-tint").length = -1) && $("body").append('<div class="content-tint"></div>'), a.insertBefore(".page-container").wrap('<div class="blocsapp-special-menu ' + o + '"><blocsnav class="' + l + '">'), $("blocsnav").prepend('<a class="close-special-menu animated fadeIn" style="animation-delay:0.5s;"><div class="close-icon"></div></a>'),
+                ($(".content-tint").length = -1) && $("body").append('<div class="content-tint"></div>'), a.insertBefore("#page-container").wrap('<div class="blocsapp-special-menu ' + o + '"><blocsnav class="' + l + '">'), $("blocsnav").prepend('<a class="close-special-menu animated fadeIn" style="animation-delay:0.5s;"><div class="close-icon"></div></a>'),
                     function() {
                         var t = "fadeInRight",
                             e = 0,
@@ -85,7 +85,7 @@ function stickyNavToggle() {
         var i = $(".fill-bloc-top-edge.sticky-nav").parent().css("background-color");
         "rgba(0, 0, 0, 0)" == i && (i = "#FFFFFF"), $(".sticky-nav").css("background", i), t = $(".sticky-nav").height(), e = "sticky animated fadeInDown"
     }
-    $(window).scrollTop() > t ? ($(".sticky-nav").addClass(e), "sticky" == e && $(".page-container").css("padding-top", $(".sticky-nav").height())) : ($(".sticky-nav").removeClass(e).removeAttr("style"), $(".page-container").removeAttr("style"))
+    $(window).scrollTop() > t ? ($(".sticky-nav").addClass(e), "sticky" == e && $("#page-container").css("padding-top", $(".sticky-nav").height())) : ($(".sticky-nav").removeClass(e).removeAttr("style"), $("#page-container").removeAttr("style"))
 }
 
 function hideAll() {

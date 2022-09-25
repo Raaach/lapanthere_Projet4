@@ -863,7 +863,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    #page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -886,7 +886,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
+    #page-container {
         overflow-x: hidden;
         position: relative;
     }
