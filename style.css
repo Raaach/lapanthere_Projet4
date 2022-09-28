@@ -698,6 +698,15 @@ p {
     font-size: 16px;
     color: white;
 }
+.pcolor{
+    filter: contrast(2);
+}
+.pservice{
+    filter: contrast(3.5);
+}
+.pbloc6{
+    filter: contrast(2);
+}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -721,7 +730,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
+
 
 h2 {
     font-size: 22px;
