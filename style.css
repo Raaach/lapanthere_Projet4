@@ -510,24 +510,6 @@ button {
     box-shadow: none;
 }
 
-.scroll_to_top {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-  }
-  .scroll_to_top img {
-    width: 25px;
-  }
 .scrollToTop {
     width: 40px;
     height: 40px;
