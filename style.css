@@ -835,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1041,12 +1041,12 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-}
+}*/
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
